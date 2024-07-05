@@ -138,11 +138,3 @@
       
     ]
   };
-
-  return new Response(JSON.stringify(jsonResponse), {
-    headers: {
-      'Content-Type': 'application/json; charset=utf-8',
-      'Content-Language': 'zh-CN' // 设置JSON响应语言为中文
-    }
-  });
-}
